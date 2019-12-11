@@ -7,10 +7,10 @@ class Db {
 	constructor() {
 		this.connection = mysql.createPool({
 			connectionLimit: 100,
-			host: 'localhost',
-			user: 'root',
-			password: '',
-			database: 'pruebachat',
+			host: 'sql10.freemysqlhosting.net',
+			user: 'sql10315269',
+			password: '31BDhi45P2',
+			database: 'sql10315269',
 			debug: false
 		});
 	}
